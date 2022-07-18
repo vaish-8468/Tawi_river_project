@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h3>The River Project</h3>
+
 <p>Detecting the speed of Tawi River using Image processing and App Development</p>
 <p>
 <h3>Algorithm Used to calculate flow speed:</h3>
