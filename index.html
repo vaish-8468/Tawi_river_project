@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title> Project website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Feartheclipse.com%2Fgeography%2Frivers-formation-importance.html&psig=AOvVaw3rrMDtp-dKHeNiM-oqSDno&ust=1642770632210000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDOyNSzwPUCFQAAAAAdAAAAABAD">
+  </head>
+  <body>
+
+      <div class="navigation w3-highway-blue w3-container">
+        <nav class="nav-container w3-padding-large">
+          <div class="logo">
+            <a href="#home" ><b>THE<span>_RIVER_</span>PROJECT</b></a>
+          </div>
+          <div class="mobile-button">
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+          </div>
+          <div class="links">
+            <a href="#about" >About</a>
+            <a href="#video" >Video</a>
+            <a href="#app" >App</a>
+
+          </div>
+          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+            <div class="mobile-logo" style="display: inline;">
+              <a href="#home" class="logo"><b>THE<span>_RIVER_</span>PROJECT</b></a>
+              <span style="width: 100%;"></span>
+              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
+            </div>
+            <a href="#about" onclick="toggleMobileNavigation()">About Us</a>
+            <a href="#video" onclick="toggleMobileNavigation()">Video</a>
+            <a href="#app" onclick="toggleMobileNavigation()">App</a>
+
+          </div>
+        </nav>
+      </div>
+
+      <!-- <div class="hero" id="home">
+        <div class="text container">
+          <p class="pre-title">One stop for global success</p>
+          <h1 class="title"> <b>THE_RIVER_PROJECT</b></h1>
+          <p class="post-title">Making it possible to detect the speed of the flowing river through Image Processing!</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="#app">APP</a>
+        </div>
+      </div> -->
+
+      <div class="Video container" id="video">
+        <h2 class="w3-center">Our Video</h2>
+        <div class="cards w3-padding-large w3-margin-top">
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>Upload Videos here</h3>
+            <div class="card-text">
+
+              <input type="file" name="" value="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="w3-panel w3-highway-blue numbers" id="app">
+        <h2 class="w3-center w3-xxxlarge">OUR APP</h2>
+        <p class="w3-center w3-xxxlarge show-medium">
+          <?xml version="1.0" encoding="utf-8"?>
+          <svg x="0px" y="0px" width="36" fill="#bed9f3" stroke="#bed9f3"
+            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+          <g id="Down-arrow">
+            <path d="M17.2929993,29.7070007c-0.3906994-0.3906002-0.3906994-1.0234013,0-1.4140015
+              c0.3906002-0.3906002,1.0234013-0.3906002,1.4140015,0L32,41.5858994l13.2929993-13.2929001
+              c0.3905983-0.3906002,1.0233994-0.3906002,1.4140015,0C46.902298,28.4883003,47,28.7441998,47,29
+              c0,0.2558994-0.097702,0.5116997-0.2929993,0.7070007l-14,14c-0.3906021,0.3906975-1.0234013,0.3906975-1.4140015,0
+              L17.2929993,29.7070007z"/>
+            <path d="M32,64c17.6730957,0,32-14.3269005,32-32S49.6730957,0,32,0C14.3268003,0,0,14.3268995,0,32S14.3268003,64,32,64z M32,62
+              C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2s30,13.4580002,30,30C62,48.542099,48.542099,62,32,62z"/>
+          </svg>
+
+        </p>
+        <p style="padding-left:650px;"><a href="https://github.com/ashutoshc8101/tawi-river-speed"><b>Android App Source Code</b></a></p>
+        <div class="container w3-padding-large">
+
+        </div>
+      </div>
+
+      <div class="about container w3-padding-large" id="about">
+        <div class="text-one">
+          <h2>About Us</h2>
+          <p>We are the students pursuing BTech from IIT JAMMU. Our team comprises of 5 members. First member, Ashutosh Chauhan is a 2nd year BTech student of Electrical Engineering Department. Second member, Kaushal Oli is also a 2nd year BTech student of Electrical Engineering Department. Third Member, Vartika Vaish is a 2nd year BTech student of Electrical Engineering Department. Fourth member, Harshit Singh is a 2nd year BTech student of Mechanical Engineering Department . Fifth member, Kshitij Gera is a 2nd year BTech student of Computer Science Engineering Department. Each one us contributed to different domains in this project and came out with the best possible way to detect the speed of the flowing river through image processing and edge detection.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://www.iitjammu.ac.in/">Read more</a>
+        </div>
+        <div class="text-one">
+          <h2>Image Processing</h2>
+          <p>Image processing is a method to perform some operations on an image, in order to get an enhanced image or to extract some useful information from it. It is a type of signal processing in which input is an image and output may be image or characteristics/features associated with that image.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://en.wikipedia.org/wiki/Digital_image_processing">Read more</a>
+          <br>
+
+          <h2>Algorithm Used </h2>
+          <p><a href="https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html">Optical Flow:</a>Optical flow is the pattern of apparent motion of image objects between two consecutive frames caused by the movement of the object or camera. It is a 2D vector field where each vector is a displacement vector showing the movement of points from the first frame to the second.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://docs.google.com/document/d/1wAeXPsE5Xso5VAtJK5MEp9bMCZ4EkhkTvhlHHfpACVM">Read more</a>
+        </div>
+      </div>
+
+      <div class=" w3-highway-blue w3-padding-large" id="footer">
+              <p class="w3-center logo">© 2021 - IIT<span>JAMMU</span> - All rights reserved</p>
+            </div>
+
+        <script>
+          function toggleMobileNavigation() {
+            const mobileNavigation = document.getElementById("mobile-sidenav");
+            mobileNavigation.classList.toggle('mobile-links-active');
+          }
+      </script>
+        </body>
+      </html>
