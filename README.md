@@ -28,3 +28,7 @@ python3 frame_differencing.py
 
 Red circle symbolizes the point of interest(POI, tracked point) in the previous frame whereas Green circle symbolizes the POI in the current frame and avag_speed is calculated by taking average of predefined numbers of frames as per the requirement.
 
+![Alt text](image.png)
+The video under usage is `river2.mp4` and the determined speed in (km/hr) is being printed in the terminal.
+![Alt text](image-1.png) 
+
