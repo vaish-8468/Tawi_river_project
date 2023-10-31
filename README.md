@@ -27,7 +27,7 @@ Then, run:
 python3 frame_differencing.py
 ```
 
-Red circle symbolizes the point of interest(POI, tracked point) in the previous frame whereas Green circle symbolizes the POI in the current frame and avag_speed is calculated by taking average of predefined numbers of frames as per the requirement.
+Red circle symbolizes the point of interest(POI, tracked point) in the previous frame whereas Green circle symbolizes the POI in the current frame and avg_speed is calculated by taking average of predefined numbers of frames as per the requirement.
 
 ![!\[!\\[Alt text\\](image.png)\](<Screen Recording 2023-10-31 at 7.38.09 PM.gif>)](video.gif)
 
