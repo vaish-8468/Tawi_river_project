@@ -20,7 +20,7 @@ def get_background(file_path):
     return median_frame
 
 
-cap = cv2.VideoCapture('river3.mp4')
+cap = cv2.VideoCapture('river2.mp4')
 
 cv2.namedWindow("Frame")
 
@@ -89,7 +89,7 @@ while (cap.isOpened()):
 
 cap.release()
 
-cap = cv2.VideoCapture('river3.mp4')
+cap = cv2.VideoCapture('river2.mp4')
 
 avg_speed = None
 
